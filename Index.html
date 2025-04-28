@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📷 Smart Image Classifier</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>📷 Smart Image Classifier</h1>
+    <p>Upload an image and discover what it is!</p>
+
+    <div class="upload-section">
+      <input type="file" id="imageUpload" accept="image/*">
+      <button id="classifyButton">Classify Image</button>
+    </div>
+
+    <div id="preview">
+      <img id="uploadedImage" src="" alt="Uploaded Image" />
+    </div>
+
+    <div id="result">
+      <h2>Result:</h2>
+      <ul id="predictions"></ul>
+    </div>
+  </div>
+
+  <script src="App.js"></script>
+</body>
+</html>
