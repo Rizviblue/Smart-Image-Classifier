@@ -38,8 +38,9 @@ This is a simple, web-based image classification app that uses the **MobileNet**
 
 Below is a screenshot of the application in action:
 
-![App Screenshot](https://raw.githubusercontent.com/Rizviblue/Smart-Image-Classifier/main/screenshot.png)
-
+<p align="center">
+  <img src="https://github.com/Rizviblue/Smart-Image-Classifier/blob/f7f9a7ef532e03e17f3b7b4b7fe384a9179ec5ee/screenshot.PNG" width="600px" alt="App Screenshot">
+</p>
 ---
 
 ## 🙋‍♂️ Made with ❤️ by Rizviblue!
